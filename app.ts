@@ -214,7 +214,7 @@ interface ICategory {
     title: string,
 }
 
-//The is nothing wrong with this approach, but it can be improved using (type parameter) generics
+//There is nothing wrong with this approach, but it can be improved using (type parameter) generics
 interface IPost {
     id: number,
     title: string,
