@@ -35,3 +35,42 @@ Objects can have properties with strict types.
 The `any` type is used when the exact type is not known.
 
 - `let testAny: any;`: Example of a variable with type `any`.
+
+## Functions
+
+Functions can have strict types for arguments and returns.
+
+- `let sayHi = (): void => { console.log("Hi, welcome!"); }`: Example of a non-return function.
+- `let functionReturnString = (): string => { return "Hello"; }`: Function that returns a string.
+- `let multiple = (number: number): number => { return number * 2; }`: Function that accepts and returns numbers.
+
+## Type Aliases
+
+Type aliases allow you to create custom names for types.
+
+- `type UserType = { username: string; age: number; phone: string; }`: Example of a type alias.
+
+## Interfaces
+
+Interfaces define the structure of objects.
+
+- `interface IUser { username: string; email: string; age: number; }`: Example of an interface.
+- `interface IEmployee extends IUser { employeeId: number; }`: Interface inheritance.
+
+## Generics
+
+Generics allow you to create types that can be reused with different types.
+
+- `interface IPostBetter<T> { id: number; title: string; desc: string; extra: T[] }`: Example of a generic interface.
+
+## Usage
+
+This example code demonstrates basic TypeScript concepts. Use it as a reference to understand how to work with types, functions, objects, and more in TypeScript.
+
+## Contribution
+
+Feel free to contribute improvements, bug fixes or add more examples. Open an issue or submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
