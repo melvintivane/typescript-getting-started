@@ -70,7 +70,3 @@ This example code demonstrates basic TypeScript concepts. Use it as a reference 
 ## Contribution
 
 Feel free to contribute improvements, bug fixes or add more examples. Open an issue or submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
